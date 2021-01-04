@@ -1,0 +1,27 @@
+li{
+    display: inline-block;
+    border: 4px solid navy;
+    padding: 5px;
+    margin: 7px;
+    background-color: rgb(109, 67, 109);
+    }
+    
+    body {
+        background-color: pink;
+        margin-block-end: 8px;
+        
+      }
+      h1{
+          font-style: oblique;
+          color: rgb(80, 38, 64);
+          margin: 5px;
+          box-shadow: rosybrown;
+          padding: 10px;
+      }
+      p{
+          font-style: oblique;
+          color: rgb(70, 3, 47);
+          font-size: larger;
+          padding: 10px;
+          background-color: rgb(192, 130, 140);
+      }
