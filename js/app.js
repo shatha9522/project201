@@ -1,47 +1,43 @@
 var userName =prompt('What is your name?');
  alert(' Hello ' + userName + ' Welcome to my page ');
  alert( 'Please Answer these Qustions to see how much do you know me');
- var favmovie = prompt('What Is My Favourite Movie ?');
-console.log('Favourite Movie is', favmovie);
-var myfavmovie ='shawshak redumbtion';
-if(favmovie.toLowerCase() === myfavmovie){
+ var favmovie = prompt('shawshak redumbtion Is My Favourite Movie ?');
+console.log(favmovie);
+if(favmovie.toLowerCase() === 'yes' || favmovie === 'y'){
     alert('correct! shawshak redumbtion is my favorite movie!');
   } else {
-    alert('unfortunately '+ favmovie + ' is not my favorite' );
+    alert('unfortunately your answer is not correct' );
   }
   
-  var favdish = prompt('What Is My Favourite Dish ?');
-  console.log('Favourite Dish is', favmovie);
-  var myfavdish ='pasta';
-  if(favdish.toLowerCase() === myfavdish){
-      alert('correct! pasta is my favorite Dish!');
+  var favdish = prompt('Do I like Dounate ?');
+  console.log(favmovie);
+  if(favdish.toLowerCase() === 'yes' || favdish === 'y' ){
+      alert('correct!');
     } else {
-      alert('unfortunately '+ favdish + ' is not my favorite' );
+      alert('unfortunately, I like Dounate' );
     }
 
-    var favcolor = prompt('What Is My Favourite color ?');
-  console.log('Favourite color is', favcolor);
-  var myfavcolor ='purple';
-  if(favcolor.toLowerCase() === myfavcolor){
+    var favcolor = prompt('Do I Like purple ?');
+  console.log( favcolor);
+  if(favcolor.toLowerCase() === 'yes' || favcolor === 'y'){
       alert('correct! purple is my favorite Color!');
     } else {
-      alert('unfortunately '+ favcolor + ' is not my favorite' );
+      alert('Your answer is not correct!' );
     }
-    var favtime = prompt('Day or Night?');
-    console.log('Favourite time is', favtime);
-    var myfavtime ='day';
-    if(favtime.toLowerCase() === myfavtime){
+    var favtime = prompt('Do I like Day time');
+    console.log( favtime);
+    if(favtime.toLowerCase() === 'yes' || favtime === 'y'){
         alert('correct! Im a Day person');
       } else {
         alert('oops! Im not a Night person' );
       }
-      var favflower = prompt('What Is My favorite flower ?');
-  console.log('Favourite flower is', favflower);
+      var favflower = prompt('Do I like Jasmin ?');
+  console.log( favflower);
   var myfavflower ='jasmin';
-  if(favflower.toLowerCase() === myfavflower){
+  if(favflower.toLowerCase() === 'yes' || favflower === 'y'){
       alert('Yup! I love jasmin');
     } else {
-      alert(' I dont like '+ favflower  );
+      alert( 'Your answer is not correct!' );
     }
 
 
