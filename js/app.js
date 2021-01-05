@@ -10,7 +10,7 @@ if(favmovie.toLowerCase() === 'yes' || favmovie === 'y'){
   }
   
   var favdish = prompt('Do I like Dounate ?');
-  console.log(favmovie);
+  console.log(favdish);
   if(favdish.toLowerCase() === 'yes' || favdish === 'y' ){
       alert('correct!');
     } else {
