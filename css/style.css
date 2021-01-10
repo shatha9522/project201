@@ -1,49 +1,116 @@
-ul li{
-    
-    border: 4px ;
-    padding: 5px;
-    margin: 7px;
-  background-color: rgb(241, 101, 125);
-    font-style: oblique;
-    }
+ol{
+  font-size: large;
+  background-color: rgba(255, 255, 255, 0.774);
+      border: 1px solid white;
+}
 
-    ol li{
-       
-    border: 4px;
-    padding: 5px;
-    margin: 7px;
-    background-color: rgb(241, 101, 125);
-    font-style: oblique;
+ul{
+ font-size: large;
+ max-width: 500px;
+      width: 100%;
+      padding: 5px;
+      margin-right: 10px;
+      margin-left: 320px;
+      margin-top: -45px;
+      margin-bottom: 90px;
+}
+
+/*ul li{
     
-    }
-    
+  border: 4px ;
+  padding: 5px;
+  margin: 7px;
+
+  }*/
+
+  ol li{
+
+  border: 4px;
+  padding: 5px;
+  margin: 7px;
+ 
+  }
+  
 h3{
-    display: inline-block;
-    border: 20px ;
-   background-color: rgb(241, 101, 125);
-    padding: 15px;
-    margin: 17px; 
+  display: inline-block;
+  border: 10px ;
+ 
+  padding: 5px;
+  margin: 7px; 
 }
 
-    body {
-        background-color: pink;
-        margin-block-end: 8px;
-        
-      }
-      h1{
-          font-style: oblique;
-          color: rgb(80, 38, 64);
-          margin: 15px;
-          box-shadow: rosybrown;
-          padding: 10px;
-      }
-      p{
-          font-style: oblique;
-          color: rgb(70, 3, 47);
-          font-size: larger;
-          padding: 10px;
-   background-color: rgb(241, 101, 125);      
-      }
-footer{
-    
+
+h4{
+  border: 10px ;
+  padding: 5px;
+  margin: 7px; 
+  margin-right: 10px;
+  margin-left: 320px;
+  margin-top: -465px;
+  margin-bottom: 90px;
+font-size: larger;
 }
+
+  body {
+      background-image:url("https://c8.alamy.com/comp/G26NG0/wall-and-floor-old-color-wood-plank-texture-for-background-G26NG0.jpg");
+      background-color: #cccccc;
+      /*margin-block-end: 8px;
+      border: solid ;
+      */
+    }
+    .firstheader{
+        font-style: oblique;
+        color: rgb(80, 38, 64);
+        margin: 15px;
+        box-shadow: rosybrown;
+        padding: 10px;
+    }
+    p{
+      max-width: 500px;
+      width: 100%;
+      padding: 55px;
+      margin-right: 10px;
+      margin-left: 300px;
+      background-color: rgba(255, 255, 255, 0.774);
+      border: 1px solid white;
+ font-size: large;
+    }
+
+.navbar a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.navbar{
+  background-color: rgb(187, 189, 187) ;
+  position: relative;
+}
+
+img{
+  box-sizing: content-box;
+  width: 100%;
+  max-width: 230px;
+  min-height: 160px;
+  color: white;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: -250px;
+  margin-bottom: 90px;
+} 

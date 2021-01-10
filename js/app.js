@@ -25,7 +25,7 @@ console.log(favcolor);
 if (favcolor.toLowerCase() === 'yes' || favcolor === 'y') {
   alert('correct! purple is my favorite Color!');
   score++;
-} 
+}
 
 else {
   alert('Your answer is not correct!');
@@ -34,8 +34,8 @@ var favtime = prompt('Do I like Day time');
 console.log(favtime);
 if (favtime.toLowerCase() === 'yes' || favtime === 'y') {
   alert('correct! Im a Day person');
-score++;
-} 
+  score++;
+}
 else {
   alert('oops! Im not a Night person');
 }
@@ -44,12 +44,12 @@ console.log(favflower);
 var myfavflower = 'jasmin';
 if (favflower.toLowerCase() === 'yes' || favflower === 'y') {
   alert('Yup! I love jasmin');
-score++;
-} 
+  score++;
+}
 
 else {
   alert('Your answer is not correct!');
-  
+
 }
 
 
@@ -58,7 +58,7 @@ for (var i = 0; i < 4; i++) {
   var num1 = prompt('How old am I?');
   console.log(num1);
 
-  if ( num1 == age) {
+  if (num1 == age) {
 
     alert('correct');
     score++;
@@ -90,23 +90,24 @@ for (var i = 0; i < 4; i++) {
 }
 alert('correct answer is 160');
 
-var j=0
+
 var favplace = ['amman', 'istanbul', 'maldives', 'jerusalem'];
 var correctAnswer = false;
 var answer1 = prompt('what is my favorit place?');
-while (j<= 5 && !correctAnswer) {
-    var answer1 = prompt('what is my favorit place ?');
-    for (var i = 0; i < favplace.length; i++) {
-        if (favcolor[i] === answer1.toLowerCase) {
-            alert('correct answer!');
-            correctAnswer = true;
-            score++;
-            break;
-        }
+var j = 0
+while (j <= 5 && !correctAnswer) {
+  var answer1 = prompt('what is my favorit place ?');
+  for (var i = 0; i < favplace.length; i++) {
+    if (favplace[i] === answer1.toLowerCase()) {
+      alert('correct answer!');
+      correctAnswer = true;
+      score++;
+      break;
     }
-    j++;
+  }
+  j++;
 }
-alert ( 'Your score is '  + score);
+alert('Your score is ' + score);
 
 
 
